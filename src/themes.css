@@ -1,0 +1,63 @@
+/* Graphite is the default. Select an alternative with data-theme in index.html. */
+@theme {
+  --color-paper: #fafafa;
+  --color-ink: #191b20;
+  --color-muted: #5b606c;
+  --color-accent: #2e57d7;
+  --color-on-accent: #ffffff;
+  --color-line: #dddfe4;
+}
+
+[data-theme="oxblood"] {
+  --color-paper: #faf8f4;
+  --color-ink: #252023;
+  --color-muted: #655d62;
+  --color-accent: #7f3247;
+  --color-on-accent: #ffffff;
+  --color-line: #e1dbdd;
+}
+
+[data-theme="plum"] {
+  --color-paper: #f7f5f0;
+  --color-ink: #292725;
+  --color-muted: #625d58;
+  --color-accent: #593b4b;
+  --color-on-accent: #f7f5f0;
+  --color-line: #d9d3ca;
+}
+
+[data-theme="navy"] {
+  --color-paper: #f8fafc;
+  --color-ink: #181f2a;
+  --color-muted: #556070;
+  --color-accent: #315a74;
+  --color-on-accent: #ffffff;
+  --color-line: #dce3eb;
+}
+
+[data-theme="forest"] {
+  --color-paper: #f4f6f0;
+  --color-ink: #28352b;
+  --color-muted: #566152;
+  --color-accent: #345740;
+  --color-on-accent: #f9fbf6;
+  --color-line: #d4dccf;
+}
+
+/* School brand colors stay independent of the page palette. */
+@layer components {
+  .education-entry[data-school="georgia-tech"] {
+    --entry-accent: #b39051;
+    --entry-heading: #051e39;
+  }
+
+  .education-entry[data-school="harvard-law"] {
+    --entry-accent: #a51c30;
+    --entry-heading: #a51c30;
+  }
+
+  .education-entry[data-school="brown"] {
+    --entry-accent: #4e3629;
+    --entry-heading: #4e3629;
+  }
+}
