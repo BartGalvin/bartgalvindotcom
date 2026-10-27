@@ -1,4 +1,4 @@
-# My portfolio
+# bartgalvin.com
 
 A small, single-page React site with Vite and Tailwind CSS. Content lives in
 `src/content.js`. Page components live in `src/components/`. `src/App.jsx`
