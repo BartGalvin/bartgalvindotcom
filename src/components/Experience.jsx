@@ -8,7 +8,7 @@ export default function Experience({ content }) {
 
   return (
     <Section id="experience" title={title}>
-      <div className="entry-list experience-list -m-4 divide-y divide-line">
+      <div className="entry-list -m-4 divide-y divide-line">
         {entries.map((entry) => (
           <ExperienceEntry key={entry.organization} entry={entry} />
         ))}
@@ -21,7 +21,7 @@ function ExperienceEntry({ entry }) {
   const { organization, role, summary, skills } = entry;
 
   return (
-    <article className="entry experience-entry rounded-sm px-4 py-6 first:pt-4 last:pb-4">
+    <article className="entry rounded-sm px-4 py-6 first:pt-4 last:pb-4">
       <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6">
         <Heading as="h3" variant="entry">
           {organization}

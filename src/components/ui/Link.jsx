@@ -9,7 +9,6 @@ const variants = {
 
 const arrows = {
   right: "\u2192",
-  external: "\u2197",
   up: "\u2191",
 };
 

@@ -7,7 +7,7 @@ export default function Education({ content }) {
 
   return (
     <Section id="education" title={title}>
-      <ul className="entry-list education-list -m-4 grid gap-7 lg:grid-cols-3 lg:gap-6">
+      <ul className="entry-list -m-4 grid gap-7 lg:grid-cols-3 lg:gap-6">
         {entries.map((entry) => (
           <EducationEntry key={entry.institution} entry={entry} />
         ))}
