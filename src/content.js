@@ -4,9 +4,17 @@ export const profile = {
   introduction:
     "I've advised businesses of all sizes. I've built and launched software, and co-founded a profitable company. I help teams  make better decisions, accounting for legal developments, emerging technologies, and commercial opportunities.",
   email: "bart@bartgalvin.com",
-  linkedin: "https://www.linkedin.com/in/bart-galvin",
-  github: "https://github.com/BartGalvin",
 };
+
+export const contactLinks = [
+  { icon: "email", label: profile.email, href: `mailto:${profile.email}` },
+  {
+    icon: "linkedin",
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/bart-galvin",
+  },
+  { icon: "github", label: "GitHub", href: "https://github.com/BartGalvin" },
+];
 
 export const business = {
   label: "Building a software startup",

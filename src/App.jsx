@@ -1,5 +1,6 @@
 import {
   business,
+  contactLinks,
   education,
   experience,
   pageCopy,
@@ -25,7 +26,7 @@ export default function App() {
         <Highlight id="entrepreneurship" content={business} />
         <Experience content={experience} />
         <Education content={education} />
-        <Contact profile={profile} />
+        <Contact links={contactLinks} />
       </main>
       <Footer />
     </div>
